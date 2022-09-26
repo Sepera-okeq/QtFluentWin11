@@ -1,0 +1,56 @@
+<RCC>
+  <qresource prefix="ToggleSwitch">
+    <file>dark/ToggleSwitchDisabled.png</file>
+    <file>dark/ToggleSwitchOff.png</file>
+    <file>dark/ToggleSwitchOffHover.png</file>
+    <file>dark/ToggleSwitchOffPressed.png</file>
+    <file>dark/ToggleSwitchOn.png</file>
+    <file>dark/ToggleSwitchOnHover.png</file>
+    <file>dark/ToggleSwitchOnPressed.png</file>
+  </qresource>
+  <qresource prefix="TreeView">
+    <file>dark/TreeViewClose.png</file>
+    <file>dark/TreeViewOpen.png</file>
+  </qresource>
+  <qresource prefix="SpinBox">
+    <file>dark/SpinBoxDown.png</file>
+    <file>dark/SpinBoxDownDisabled.png</file>
+    <file>dark/SpinBoxUp.png</file>
+    <file>dark/SpinBoxUpDisabled.png</file>
+  </qresource>
+  <qresource prefix="ScrollVertical">
+    <file>dark/ScrollBottom.png</file>
+    <file>dark/ScrollBottomHover.png</file>
+    <file>dark/ScrollBottomPressed.png</file>
+    <file>dark/ScrollTop.png</file>
+    <file>dark/ScrollTopHover.png</file>
+    <file>dark/ScrollTopPressed.png</file>
+  </qresource>
+  <qresource prefix="ScrollHorizontal">
+    <file>dark/ScrollLeft.png</file>
+    <file>dark/ScrollLeftHover.png</file>
+    <file>dark/ScrollLeftPressed.png</file>
+    <file>dark/ScrollRight.png</file>
+    <file>dark/ScrollRightHover.png</file>
+    <file>dark/ScrollRightPressed.png</file>
+  </qresource>
+  <qresource prefix="RadioButton">
+    <file>dark/RadioButton.png</file>
+    <file>dark/RadioButtonHover.png</file>
+    <file>dark/RadioButtonPressed.png</file>
+  </qresource>
+  <qresource prefix="PrevNext">
+    <file>dark/NextMonth.png</file>
+    <file>dark/NextMonthDisabled.png</file>
+    <file>dark/PrevMonth.png</file>
+    <file>dark/PrevMonthDisabled.png</file>
+  </qresource>
+  <qresource prefix="ComboBox">
+    <file>dark/ComboBox.png</file>
+    <file>dark/ComboBoxDisabled.png</file>
+  </qresource>
+  <qresource prefix="CheckBox">
+    <file>dark/CheckBox.png</file>
+    <file>dark/CheckBoxPressed.png</file>
+  </qresource>
+</RCC>

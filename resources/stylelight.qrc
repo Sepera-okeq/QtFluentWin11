@@ -1,0 +1,60 @@
+<RCC>
+  <qresource prefix="ToggleSwitch">
+    <file>light/ToggleSwitchDisabled.png</file>
+    <file>light/ToggleSwitchOn.png</file>
+    <file>light/ToggleSwitchOnHover.png</file>
+    <file>light/ToggleSwitchOnPressed.png</file>
+    <file>light/ToggleSwitchOff.png</file>
+    <file>light/ToggleSwitchOffHover.png</file>
+    <file>light/ToggleSwitchOffPressed.png</file>
+  </qresource>
+  <qresource prefix="ScrollHorizontal">
+    <file>light/ScrollLeft.png</file>
+    <file>light/ScrollLeftHover.png</file>
+    <file>light/ScrollLeftPressed.png</file>
+    <file>light/ScrollRight.png</file>
+    <file>light/ScrollRightHover.png</file>
+    <file>light/ScrollRightPressed.png</file>
+  </qresource>
+  <qresource prefix="ScrollVertical">
+    <file>light/ScrollBottom.png</file>
+    <file>light/ScrollBottomHover.png</file>
+    <file>light/ScrollBottomPressed.png</file>
+    <file>light/ScrollTop.png</file>
+    <file>light/ScrollTopHover.png</file>
+    <file>light/ScrollTopPressed.png</file>
+  </qresource>
+  <qresource prefix="PrevNext">
+    <file>light/NextMonthDisabled.png</file>
+    <file>light/PrevMonthDisabled.png</file>
+    <file>light/NextMonth.png</file>
+    <file>light/PrevMonth.png</file>
+  </qresource>
+  <qresource prefix="SpinBox">
+    <file>light/SpinBoxDown.png</file>
+    <file>light/SpinBoxDownDisabled.png</file>
+    <file>light/SpinBoxUp.png</file>
+    <file>light/SpinBoxUpDisabled.png</file>
+  </qresource>
+  <qresource prefix="RadioButton">
+    <file>light/RadioButtonPressed.png</file>
+    <file>light/RadioButtonHover.png</file>
+    <file>light/RadioButton.png</file>
+  </qresource>
+  <qresource prefix="CheckBox">
+    <file>light/CheckBox.png</file>
+    <file>light/CheckBoxPressed.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>light/ComboBox.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>light/ComboBoxDisabled.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>light/TreeViewClose.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>light/TreeViewOpen.png</file>
+  </qresource>
+</RCC>
