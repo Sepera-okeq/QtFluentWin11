@@ -108,10 +108,10 @@ void BlurMode::HandleMethodCall(QMainWindow *window, int effect, BlurModeEdit mo
         accent = {
             static_cast<ACCENT_STATE>(effect), 2,
             static_cast<DWORD>(
-                (255 << 24) +
-                (0 << 16) +
-                (100 << 8) +
-                (100)),
+                (this->color.alpha() << 24) +
+                (this->color.blue() << 16) +
+                (this->color.green() << 8) +
+                (this->color.red())),
             0};
         data.Attrib = WCA_ACCENT_POLICY;
         data.pvData = &accent;
@@ -158,8 +158,11 @@ void BlurMode::HandleMethodCall(QMainWindow *window, int effect, BlurModeEdit mo
       ::ShowWindow(window, SW_RESTORE);
     }*/
     //result->Success();
-    qDebug() << "Success";
-  } //else
-    //result->NotImplemented();
-    //qDebug() << "NotImplemented";
+  qDebug() << "Success";
+}
+
+void BlurMode::setColorBackground(QColor color)
+{
+    this->color = color;
+}
 

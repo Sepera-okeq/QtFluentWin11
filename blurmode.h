@@ -92,7 +92,7 @@ class BlurMode {
   BlurMode();
   virtual ~BlurMode();
   void HandleMethodCall(QMainWindow *window, int effect, BlurModeEdit mode, bool dark);
-
+  void setColorBackground(QColor color);
  private:
   HMODULE user32 = nullptr;
   SetWindowCompositionAttribute set_window_composition_attribute_ = nullptr;
@@ -102,6 +102,7 @@ class BlurMode {
   int32_t window_effect_last_ = 0;
   RTL_OSVERSIONINFOW GetWindowsVersion();
   HWND GetParentWindow(QMainWindow *window);
+  QColor color;
 };
 
 

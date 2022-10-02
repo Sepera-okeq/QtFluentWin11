@@ -9,7 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     BlurMode blurMode;
     blurMode.HandleMethodCall(this, 4, kInitialize, 0);
-    blurMode.HandleMethodCall(this, 5, kSetEffect, 0);
+    blurMode.setColorBackground(QColor(255, 73, 242, 64));
+    blurMode.HandleMethodCall(this, 4, kSetEffect, 0);
 }
 
 MainWindow::~MainWindow()
